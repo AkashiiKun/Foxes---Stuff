@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+def vortyLibPath = System.getenv("VORTYLIB_PATH") ?: "../Projects/vortylib-template-1.21.1"
+includeBuild(vortyLibPath)

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sweet_berries"
+    },
+    "b": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "id": "foxesstuff:golden_berries",
+    "count": 1
+  }
+}
